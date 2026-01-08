@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">我的网站</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页/英雄区域 -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <h1>你好，我是<span>李仕杰</span></h1>
+                <p>一名充满激情的前端开发者</p>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-codepen"></i></a>
+                </div>
+                <a href="#projects" class="btn btn-primary">查看我的项目</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>关于我</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://picsum.photos/id/1005/300/300" alt="个人照片">
+                </div>
+                <div class="about-text">
+                    <h3>我是一名前端开发者</h3>
+                    <p>拥有3年前端开发经验，专注于创建美观、易用且性能优秀的Web应用。熟悉现代前端技术栈，包括HTML5、CSS3、JavaScript、React等。</p>
+                    <p>我热爱编程，喜欢解决复杂问题，并且始终关注Web开发领域的最新趋势和技术。我相信良好的用户体验是优秀产品的核心。</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span>姓名:</span>
+                            <span>李仕杰</span>
+                        </div>
+                        <div class="info-item">
+                            <span>邮箱:</span>
+                            <span>zhangsan@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span>电话:</span>
+                            <span>138-0013-8000</span>
+                        </div>
+                        <div class="info-item">
+                            <span>地址:</span>
+                            <span>北京市朝阳区</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>我的技能</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>HTML5 & CSS3</h3>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>JavaScript</h3>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>React</h3>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>TypeScript</h3>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Vue.js</h3>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Node.js</h3>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>我的项目</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-content">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://source.unsplash.com/random/800x400/?ecommerce" alt="项目1">
+                    </div>
+                    <div class="project-info">
+                        <h3>响应式电商网站</h3>
+                        <p>使用React和Redux构建的现代化电商平台，具有完整的购物车、用户认证和支付功能。</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Redux</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> 演示</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://source.unsplash.com/random/800x400/?blog" alt="项目2">
+                    </div>
+                    <div class="project-info">
+                        <h3>个人博客系统</h3>
+                        <p>基于Vue.js和Express开发的个人博客系统，支持Markdown编辑、分类管理和评论功能。</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+                            <span>Markdown</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> 演示</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="https://source.unsplash.com/random/800x400/?dashboard" alt="项目3">
+                    </div>
+                    <div class="project-info">
+                        <h3>数据可视化仪表板</h3>
+                        <p>使用D3.js和React构建的数据可视化仪表板，展示实时数据和趋势分析。</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>Socket.io</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> 演示</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>联系我</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>北京市朝阳区建国路88号</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>zhangsan@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>138-0013-8000</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>周一至周五: 9:00 - 18:00</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>发送消息</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="主题" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="您的消息" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>李仕杰</h3>
+                    <p>前端开发者 | 热爱编程 | 追求卓越</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-codepen"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 李仕杰. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript文件 -->
+    <script src="js/main.js"></script>
+</body>
+</html>
